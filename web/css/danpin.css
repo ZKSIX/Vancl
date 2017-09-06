@@ -1,0 +1,700 @@
+#prodfixed {
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+    min-width: 980px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    border-bottom: 1px solid #e5e6e6;
+    background-color: #fff;
+    display: none;
+}
+
+#prodfixed h2 {
+    margin-left: 10px;
+    float: left;
+    margin-right: 10px;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+}
+
+#prodfixed .pronav {
+    float: right;
+}
+
+#prodfixed .pronav li {
+    float: left;
+    color: #808080;
+    height: 45px;
+    margin: 0 10px 0 0;
+}
+
+#prodfixed .pronav li a {
+    display: inline-block;
+    padding: 0px 15px 0px 0px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    color: #808080;
+}
+
+#danpinBox {
+    width: 1200px;
+    margin: 40px auto;
+}
+
+#danpinBox .breadNav {
+    height: 22px;
+}
+
+#danpinBox .breadNav a {
+    color: #333;
+}
+
+#danpinBox .productTitle {
+    height: 45px;
+    border-bottom: 1px solid #e5e6e6;
+}
+
+#danpinBox .productTitle h2 {
+    float: left;
+    margin-left: 10px;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+}
+
+#danpinBox .productTitle ul {
+    float: right;
+}
+
+#danpinBox .productTitle ul li {
+    float: left;
+    color: #808080;
+    height: 45px;
+    margin: 0 10px 0 0;
+}
+
+#danpinBox .productTitle ul li a {
+    display: inline-block;
+    padding: 0px 15px 0px 0px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    color: #808080;
+}
+
+#danpinBox .productContent {
+    margin-top: 30px;
+}
+
+#danpinBox .productContent .danpin_collef {
+    width: 634px;
+    float: left;
+    height: auto;
+}
+
+#danpinBox .productContent .danpinLeft {
+    width: 72px;
+    height: auto;
+}
+
+#danpinBox .productContent .danpinLeft .smallImg {
+    float: left;
+    width: 72px;
+}
+
+.danpinLeft .smallImg li {
+    margin-top: 11px;
+    border: 1px solid #B4B4B4;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.danpinLeft .smallImg li:first-child.hover {
+    border: 1px solid #a10000;
+}
+
+.danpinLeft .smallImg li:first-child.hover img {
+    border: 1px solid #a10000;
+}
+
+.danpinLeft .smallImg li.hover {
+    border: 1px solid #a10000;
+}
+
+.danpinLeft .smallImg li.hover img {
+    border: 1px solid #a10000;
+}
+
+.danpinLeft .smallImg li img {
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+    border: 1px solid #fff;
+}
+
+.danpinCenter {
+    width: 400px;
+    float: right;
+    margin: 0 80px;
+
+}
+
+.danpinCenter .imgbox {
+    width: 402px;
+    height: 402px;
+    position: relative;
+}
+
+.danpinCenter .bigImg {
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    overflow: hidden;
+    border: 1px solid #e5e6e6;
+    position: relative;
+}
+
+.danpinCenter .imgbox {
+    position: relative;
+}
+
+.danpinCenter .imgbox .big {
+    position: absolute;
+    left: 405px;
+    top: -80px;
+    width: 440px;
+    height: 440px;
+    border: 1px solid #000;
+    overflow: hidden;
+    background-color: #fff;
+    z-index: 100000;
+    display: none;
+}
+
+.danpinCenter .imgbox .big img {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    margin: 0 auto;
+
+}
+
+.danpinCenter .bigImg .mask {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.6;
+    background-color: #e6eaf3;
+    border: 1px solid White;
+    cursor: crosshair;
+}
+
+.danpinRight {
+    width: 566px;
+    float: left;
+    padding-top: 10px;
+}
+
+.danpinRight .cuxiaoPrice {
+    color: #A10000;
+    margin-bottom: 30px;
+}
+
+.danpinRight .cuxiaoPrice strong {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.danpinRight .cuxiaoPrice a {
+    color: #A10000;
+}
+
+.danpinRight .danpinColor {
+    overflow: hidden;
+}
+
+.danpinRight .danpinColor ul {
+    float: left;
+}
+
+.danpinRight .danpinSize .selSize li {
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    color: #333333;
+    cursor: pointer;
+    padding: 0px;
+    display: inline;
+    float: left;
+    height: 24px;
+    line-height: 22px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.danpinRight .danpinColor ul li {
+    cursor: pointer;
+    border: 1px solid #B4B4B4;
+    display: inline;
+    float: left;
+    height: 40px;
+    margin: 0px 8px 8px 0px;
+    width: 95px;
+    position: relative;
+}
+
+.danpinColor .colorBlock {
+    border: 1px solid #fff;
+    height: 38px;
+}
+
+.danpinColor .colorBlock span {
+    display: block;
+    float: left;
+    width: 36px;
+    height: 36px;
+    margin: 1px 0px 0px 1px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.danpinColor .colorBlock span img {
+    width: 36px;
+    height: 36px;
+}
+
+.danpinRight .danpinColor ul li:hover {
+    border: 1px solid #A10000;
+}
+
+.danpinRight .info {
+    float: left;
+    color: #666;
+    line-height: 20px;
+}
+
+/*.danpinColor li .colorBlock span {
+    background: url(../images/1.jpg) no-repeat;
+    background-size: contain;
+}*/
+
+/*.danpinColor .colorBlock .bg2 {
+    background: url(../images/2.jpg) no-repeat;
+    background-size: contain;
+}*/
+
+.danpinColor .colorBlock p {
+    color: #666;
+    display: inline;
+    float: left;
+    line-height: 16px;
+    margin-left: 6px;
+    padding-top: 4px;
+    width: 46px;
+    overflow: hidden;
+    height: 34px;
+    cursor: pointer;
+}
+
+.danpinSize, .danpinNum, .danpinChose, .shoppingNews, .promotion {
+    margin-top: 15px;
+}
+
+.danpinSize .selSize li {
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    color: #333333;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.danpinSize .selSize li:hover {
+    border: 1px solid #a10000;
+}
+
+.danpinSize .selSize li div {
+    position: relative;
+}
+
+.danpinSize .selSize li.on {
+    border: 1px solid #a10000;
+}
+
+.danpinSize .selSize li.on div {
+    border: 1px solid #a10000;
+}
+
+/*.danpinColor ul li:first-child.on{
+    border: 1px solid #a10000;
+}
+
+.danpinColor ul li:first-child.on .colorBlock{
+    border: 1px solid #a10000;
+}
+.danpinColor ul li:first-child.on > span.hoverOk{
+    display: block;
+    width: 14px;
+    height: 13px;
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    background: url(../images/pro/sprite0725.png) -1151px 0;
+}*/
+
+.danpinColor ul li.on {
+    border: 1px solid #a10000;
+}
+
+.danpinColor ul li.on .colorBlock {
+    border: 1px solid #a10000;
+}
+
+.hoverOk {
+    display: block;
+    width: 14px;
+    height: 13px;
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    background: url(../images/pro/sprite0725.png) -1151px 0;
+}
+
+.danpinSize .selSize li div {
+    border: 1px solid #fff;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 10px;
+}
+
+.danpinChose {
+    line-height: 20px;
+}
+
+.color, .size {
+    color: #666;
+    font-weight: bold;
+}
+
+.countInfo {
+    color: #a10000;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.shoppingNews .buyNow {
+    background: #F7ABAF;
+    width: 166px;
+    height: 31px;
+    line-height: 29px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #A50309;
+    float: left;
+    margin-right: 13px;
+    border: solid 1px rgb(183, 27, 33);
+}
+
+.shoppingNews .addToCar {
+    background: url(../images/pro/vanclsprite.png) -147px -285px;
+    width: 168px;
+    height: 33px;
+    display: block;
+    float: left;
+}
+
+.promotion {
+    width: 400px;
+    height: auto;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #A20000;
+}
+
+.promotion h4 {
+    height: 4px;
+    line-height: 14px;
+    margin-bottom: 6px;
+    position: relative;
+    color: #a20000;
+    font-weight: bold;
+    border-bottom: 1px solid #a20000;
+}
+
+.promotion h4 span {
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    background: #ffffff;
+    position: absolute;
+    left: 167px;
+    top: -4px;
+    padding: 0 8px;
+}
+
+.promotion > ul > li {
+    padding-left: 15px;
+    line-height: 24px;
+    color: #666666;
+    background: url(../images/pro/sprite0725.png) no-repeat scroll -372px -316px;
+}
+
+.productDetail {
+    border-top: 1px solid #e5e6e6;
+    margin-top: 40px;
+    padding-top: 50px;
+}
+
+.productDetail .attr h3 {
+    color: #999999;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.productDetail .attr .keyword {
+    padding-left: 10px;
+    line-height: 40px;
+    color: #a10000;
+    background-color: #f9f9f9;
+}
+
+.productDetail .attr .keyword a {
+    color: #000;
+}
+
+.productDetail .imgdetail {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.productComment .tjpro {
+    width: 190px;
+    border: 1px solid #b4b4b4;
+}
+
+.productComment .tjpro h4, .productCommentRight h4 {
+    line-height: 40px;
+    border-bottom: 1px solid #b4b4b4;
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+.productComment .tjpro ul {
+    margin: 25px auto;
+}
+
+.productComment .tjpro ul li {
+    width: 160px;
+    margin: 0 auto;
+}
+
+.productComment .tjpro ul li h3 {
+    width: 130px;
+    margin: 0 auto;
+    line-height: 20px;
+    color: #808080;
+    font-size: 12px;
+    text-align: center;
+}
+
+.productComment .tjpro ul li h3 a {
+    color: #808080;
+}
+
+.productComment .tjpro ul li .price {
+    color: #a10000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.productComment .tjpro ul li img {
+    width: 160px;
+    display: block;
+}
+
+.productComment .productCommentRight {
+    width: 980px;
+    position: relative;
+}
+
+#comment {
+    position: absolute;
+    top: -60px;
+    width: 1px;
+    height: 1px;
+}
+
+.productComment .productCommentRight .newComment {
+    border: 1px solid #b4b4b4;
+}
+
+.productCommentRight .newComment h4 input {
+    vertical-align: middle;
+}
+
+.productCommentRight .newComment h4 .addComment, .addQuestion {
+    display: block;
+    float: right;
+    height: 33px;
+    color: #fff;
+    line-height: 33px;
+    text-align: center;
+    background-color: #d46a6a;
+    margin: 3px 32px 0 0;
+    width: 120px;
+}
+
+.productCommentRight .newComment .commentContent {
+    width: 916px;
+    margin: 0 auto;
+}
+
+.commentContent .commentTab {
+    border-bottom: 1px dashed #b4b4b4;
+}
+
+.commentContent .commentTab .commentLeft {
+    padding: 25px 0;
+    width: 758px;
+    border-right: 1px dashed #b4b4b4;
+}
+
+.commentContent .commentTab .commentLeft .commentCon {
+    width: 610px;
+}
+
+.commentLeft .commentCon .time {
+    display: block;
+    padding-top: 15px;
+    color: #b4b4b4;
+}
+
+.commentLeft .productCon {
+    width: 130px;
+    margin-right: 10px;
+}
+
+.commentLeft .productCon p {
+    line-height: 20px;
+}
+
+.commentLeft .productCon .plSize {
+    padding-top: 15px;
+}
+
+.commentRight {
+    width: 150px;
+   /* padding-top: 55px;*/
+    padding-top: 30px;
+    text-align: center;
+}
+
+.commentRight .uselevel {
+    margin-top: 10px;
+    width: 42px;
+    height: 14px;
+    display: inline-block;
+    background: url(../images/pro/userlevelgrowth_42_14.jpg) no-repeat;
+}
+
+.page {
+    width: 918px;
+    margin: 0 auto;
+    text-align: right;
+    height: 44px;
+    line-height: 44px;
+    color: #A10000;
+    font-weight: bold;
+}
+
+.page a{
+    cursor: pointer;
+}
+.page a.click{
+    color: blue;
+}
+
+.page span a.click{
+    color: blue;
+}
+
+.newQuestion {
+    margin-top: 20px;
+    position: relative;
+    border: 1px solid #b4b4b4;
+}
+
+#question {
+    position: absolute;
+    top: -60px;
+    width: 1px;
+    height: 1px;
+}
+
+.newQuestion .questionList {
+    width: 918px;
+    margin: 0 auto;
+}
+
+.newQuestion .questionList .questionListItems {
+    padding: 20px 0;
+    border-bottom: 1px dashed #b4b4b4;
+}
+
+/*.questionList .questionListItems p {
+    float: left;
+}*/
+
+.newQuestion .questionList .questionListItems h5 {
+    float: right;
+    display: inline;
+    color: #7c7b7b;
+}
+
+.questionList .questionListItems h5 a {
+    color: #7c7b7b;
+    margin-left: 25px;
+}
+
+.Q {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    background-color: #a10000;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+}
+
+.A {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    background-color: #d46a6a;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+}
+
+.adminAsk {
+    margin-top: 25px;
+    line-height: 20px;
+    color: #7c7b7b;
+}

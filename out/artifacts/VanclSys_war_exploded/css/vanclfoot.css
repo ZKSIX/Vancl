@@ -1,0 +1,461 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.vanclfoot {
+    overflow: hidden;
+    width: 1118px;
+    height: 282px;
+    padding: 0px 40px 0px;
+    border: 1px solid #e0e0e1;
+    font-family: "Microsoft YaHei";
+    margin: 25px auto;
+}
+ .vanclCustomer {
+    margin: 33px 0px 23px;
+    overflow: hidden;
+}
+.vanclCustomer ul li {
+    width: 355px;
+    height: 158px;
+    border-right: 1px solid #e0e0e1;
+    margin-right: 0px;
+    list-style: none;
+    float: left;
+}
+.vanclCustomer ul li p {
+    text-align: center;
+    font-size: 14px;
+    color: #727171;
+    line-height: 26px;
+}
+.vanclCustomer ul li.twocode {
+    border-right: none;
+}
+.vanclCustomer ul li .seven-img{
+    margin-bottom: 23px;
+}
+.vanclCustomer ul li p.onlineCustomer {
+    margin: 15px auto 30px;
+}
+.vanclCustomer ul li p.onlineTime {
+    margin:0px auto;
+    width: 156px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    background: #b81c22;
+    color: #ffffff;
+}
+ .vanclCustomer ul li  .seven {
+    margin:10px 0px;
+}
+.vanclCustomer ul li.twocode p a {
+    color: #a10000;
+}
+.vanclOthers {
+    height: 46px;
+    padding: 10px 0px 0px 0px;
+    background: #f8f8f8;
+    width: 95%;
+    margin: 10px auto;
+}
+.vanclOthers ul li {
+    padding: 0px 60px;
+    line-height: 26px;
+    border-right: 1px solid #dadadb;
+    width: auto;
+    text-align: center;
+    margin-right: 0px;
+    float: left;
+    list-style: none;
+}
+.vanclOthers ul li  a{
+    font-size: 12px;
+    color: #323232;
+    cursor: pointer;
+}
+.vanclOthers .last-one{
+    border-right: none;
+}
+.footTop{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    border-top: 1px solid #3e3a39;
+}
+.footTopTab{
+    width: 1200px;
+    height: auto;
+    margin: 10px auto;
+}
+.footTopTab  p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    color: #3e3a39;
+    font-family: "Microsoft YaHei";
+}
+.blank20 {
+    display: block;
+    width: 100%;
+    height: 20px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow: hidden;
+}
+.blank0 {
+    display: block;
+    width: 100%;
+    height: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow: hidden;
+}
+.subFooter {
+    width: 980px;
+    margin: 0px auto 25px;
+    text-align: center;
+}
+.subFooter a{
+    margin: 0 10px;
+}
+.subFooter .redLogo{
+    background: url("../images/spritesbgtop.png") no-repeat scroll 0 -581px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 113px;
+}
+.subFooter .costumeOrg {
+    background: url("../images/spritesbgtop.png") no-repeat scroll 0 -629px transparent;
+    display: inline-block;
+    height: 45px;
+    width: 156px;
+}
+.subFooter .wsjyBzzx {
+    background: url("../images/spritesbgtop.png") no-repeat scroll 0 -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 96px;
+}
+.subFooter .vanclMsg {
+    background: url("../images/spritesbgtop.png") no-repeat scroll -97px -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 101px;
+}
+.subFooter .vanclqingNian{
+    background: url("../images/spritesbgtop.png") no-repeat scroll -202px -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+}
+
+
+.blank10 {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 10px;
+}
+.Askquestion {
+    width: 978px;
+    height: 208px;
+    border: 1px solid #cfcfcf;
+    display: none;
+    float: right;
+    margin-bottom: 25px;
+}
+.Askquestion h3 {
+    height: 37px;
+    margin: 0px 3px;
+    font-size: 14px;
+    line-height: 35px;
+    font-weight: bold;
+    border-bottom: 1px solid #cfcfcf;
+}
+.Askquestion h3 span {
+    display: block;
+    float: left;
+    width: 14px;
+    height: 16px;
+    background: url("../images/pro/sprite0725.png") no-repeat scroll -1902px -401px;
+    margin: 8px 3px 0px;
+}
+.Askquestion .questionStyle {
+    position: relative;
+}
+.Askquestion dl dd ul li{
+    float: left;
+}
+.Askquestion dl {
+    margin: 13px 0px 15px 23px;
+    width: 980px;
+    width: 734px;
+}
+.Askquestion dl dd ul li input {
+    margin: 0px 3px 0px 0px;
+}
+.Askquestion dl dd ul li {
+    margin-right: 40px;
+}
+.Askquestion input {
+    vertical-align: middle;
+}
+.Askquestion dl dt {
+    color: #666666;
+    font-weight: bold;
+    float: left;
+}
+.Askquestion dl dd .Askcontent {
+    width: 546px;
+    height: 69px;
+    padding: 5px;
+    border: 1px solid #a6b2ca;
+}
+.Askquestion dl dd .askSubBtn {
+    width: 97px;
+    height: 27px;
+    background: url("../images/pro/sprite0725.png") no-repeat scroll -1916px -401px;
+    border: none 0;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.Askquestion dl dd {
+    width: 655px;
+}
+
+.dicussDiv{
+    width: 760px;
+    margin:30px  auto;
+    position: relative;
+    display: none;
+}
+.comment-send {
+    margin: 10px 0;
+}
+.textarea-container textarea {
+    font-size: 12px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #e5e9ef;
+    overflow: auto;
+    border-radius: 4px;
+    color: #555;
+    width: 100%!important;
+    height: 65px;
+    transition: 0s;
+    padding: 5px 10px;
+    line-height: normal;
+}
+.comment-submit {
+    width: 70px;
+    height: 64px;
+    position: absolute;
+    right: -80px;
+    top: 45px;
+    padding: 4px 15px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    min-width: 60px;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: #b91d24;
+    border: 1px solid #b91d24;
+    transition: .1s;
+    user-select: none;
+    outline: none;
+}
+/*
+.comment-emoji {
+    padding: 0;
+    width: 66px;
+    height: 24px;
+    color: #99a2aa;
+    border: 1px solid #e5e9ef;
+    border-radius: 4px;
+    position: relative;
+    z-index: 101;
+    font-size: 12px;
+    text-align: center;
+    line-height: 23px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.emoji-box {
+    font-size: 12px;
+    font-family: Microsoft YaHei,Arial,Helvetica,sans-serif;
+    color: #222;
+    overflow: visible;
+    background: #fff;
+    border: 1px solid #ccd0d7;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.14);
+    margin-top: 7px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    width: 386px;
+    position: absolute;
+    top: 90px;
+    z-index: 103;
+}
+.comment-emoji .text {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    font-size: 12px!important;
+}
+.emoji-box .emoji-title {
+    margin: 8px 18px 0;
+    color: #99a2aa;
+}
+.emoji-box .emoji-wrap {
+    margin: 4px 8px 8px;
+    height: 152px;
+    overflow: auto;
+}
+
+.emoji-box .emoji-text {
+    color: #111;
+    border-radius: 4px;
+    transition: background .2s;
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 2px 3px;
+    outline: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+*/
+.emoji-box .emoji-text:hover{
+    background: #eeeeee;
+}
+
+#star{
+    position:relative;
+    width:600px;
+    margin:20px auto;
+    height:24px;
+}
+#star ul,#star span{
+    float:left;
+    display:inline;
+    height:19px;
+    line-height:19px;
+}
+#star ul{
+    margin:0 10px;
+}
+#star li{
+    float:left;
+    width:24px;
+    cursor:pointer;
+    text-indent:-9999px;
+    background:url(../images/star.png) no-repeat;
+}
+#star strong{
+    color:#f60;
+    padding-left:10px;
+}
+#star li.on{
+    background-position:0 -28px;
+}
+#star p{
+    position:absolute;
+    top:20px;
+    width:159px;
+    height:60px;
+    display:none;
+    background:url(../images/icon.gif) no-repeat;
+    padding:7px 10px 0;
+}
+#star p em{
+    color:#f60;
+    display:block;
+    font-style:normal;
+}
+
+.notesNewpl {
+    width: 746px;
+    height: auto;
+    overflow: hidden;
+    display: none;
+    position: relative;
+}
+.blank5 {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    overflow: hidden;
+    height: 5px;
+}
+.blank10 {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 10px;
+}
+.new-mr {
+    margin-right: 6px;
+}
+.agray a {
+    color: #999;
+    cursor: default;
+}
+.new-page {
+    float: right;
+    display: inline;
+    margin-right:12px;
+    line-height: 12px;
+}
+
+.publish20130114 {
+    width: 708px;
+    margin: 0px;
+    border-bottom: 1px solid #CFCFCF;
+}
+.publish {
+    background: #fafafa;
+    border-top: 1px solid #cfcfcf;
+    float: left;
+    display: inline;
+    padding: 0 150px 0 38px;
+    width: 546px;
+    display: none;
+    position: relative;
+
+}
+.lineh {
+    height: 34px;
+    line-height: 34px;
+}
+.pl0727Ht {
+    float: left;
+}
+.textcontent textarea {
+    width: 526px;
+    height: 66px;
+    border: 1px solid #cfcfcf;
+    padding: 3px;
+    display: block;
+    max-width: 687px;
+    max-height: 100px;
+}
+.new-color999 {
+    color: #999;
+}
+.two-btn input{
+    padding: 1px 6px;
+    border: 0;
+    vertical-align: middle;
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+
+

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品详情页面</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/danpin.css">
+    <script src="../js/jquery-3.2.1.js"></script>
+</head>
+<body>
+<!--头部区域开始-->
+<div id="header">
+    <div class="header-wrap">
+        <div id="header-bar">
+            <div class="top-right">
+                <div class="notice-bar"><a href="#" class="notice">网站公告</a></div>
+                <a href="javascript:;" class="wechat">
+                    <b class="weixinTip"></b>
+                </a>
+                <a href="javascript:;" class="weibo"></a>
+            </div>
+            <div class="top-left">您好，欢迎光临凡客诚品！&nbsp;<a href="fankelogin.jsp">登录</a>&nbsp;|&nbsp;<a
+                    href="fankerigist.jsp">注册</a>
+                &nbsp;<a href="#" class="track">我的订单</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="search">
+        <div class="search-bar">
+            <div class="search-tab">
+                <input class="search-text fl" type="text">
+                <input class="search-btn" type="button">
+                <div class="active" id="shoppingCar">
+                    <p><a id="shoppingCar-link" class="car-tab" href="#">购物车(<span class="car-number">0</span>)</a>
+                    </p>
+                    <div class="bottomline"></div>
+                    <div class="car-list">
+                        <p>您的购物车没有任何商品</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hotwords">
+                热门搜索：
+                <a href="#">T恤</a>
+                <a href="#">免烫寸衫</a>
+                <a href="#">c9</a>
+                <a href="#">熊本熊</a>
+                <a href="#">POLD</a>
+                <a href="#">牛津纺</a>
+                <a href="#">针织衫</a>
+                <a href="#">袜品</a>
+            </div>
+        </div>
+    </div>
+    <div class="nav-list clear">
+        <ul>
+            <li class="logo"><a href=""></a></li>
+            <li><a href="#">首页</a><span class="navLine"></span></li>
+            <li>
+                <a href="#">T恤<em class="new"></em></a>
+                <span class="navLine"></span>
+                <div class="subNav">
+                    <span></span>
+                    <ul>
+                        <li><a href="#">熊本熊</a></li>
+                        <li><a href="#">光变色</a></li>
+                        <li><a href="#"> CALM</a></li>
+                        <li><a href="#"> 海悦</a></li>
+                        <li><a href="#"> 复刻</a></li>
+                        <li><a href="#"> 十二星座</a></li>
+                        <li><a href="#"> 好小猫</a></li>
+                        <li><a href="#"> 独角仙</a></li>
+                        <li><a href="#"> 薛继业</a></li>
+                        <li><a href="#"> 字</a></li>
+                        <li><a href="#"> 好小猪</a></li>
+                        <li><a href="#"> 义系列</a></li>
+                        <li><a href="#"> 药系列</a></li>
+                        <li><a href="#"> 简鱼</a></li>
+                        <li><a href="#"> 十二生肖</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">寸衫<em class="hot"></em></a>
+                <span class="navLine"></span>
+                <div class="subNav">
+                    <span></span>
+                    <ul>
+                        <li><a href="#">定制</a></li>
+                        <li><a href="#"> 免烫</a></li>
+                        <li><a href="#">高支</a></li>
+                        <li><a href="#">休闲</a></li>
+                        <li><a href="#">短袖衬衫</a></li>
+                        <li><a href="#">法兰绒</a></li>
+                        <li><a href="#">牛津纺</a></li>
+                        <li><a href="#">青年布</a></li>
+                        <li><a href="#">牛仔</a></li>
+                        <li><a href="#">麻</a></li>
+                        <li><a href="#">水洗棉</a></li>
+                        <li><a href="#">泡泡纱</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">C9</a>
+                <span class="navLine"></span>
+                <div class="subNav">
+                    <span></span>
+                    <ul>
+                        <li><a href="#">衬衫</a></li>
+                        <li><a href="#">裤装</a></li>
+                        <li><a href="#">T恤</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">鞋</a>
+                <span class="navLine"></span>
+                <div class="subNav">
+                    <span></span>
+                    <ul>
+                        <li><a href="#">复古跑鞋</a></li>
+                        <li><a href="#">户外鞋</a></li>
+                        <li><a href="#">帆布鞋</a></li>
+                        <li><a href="#">皮鞋</a></li>
+                        <li><a href="#">休闲鞋</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">麻</a>
+                <span class="navLine"></span>
+                <div class="subNav">
+                    <span></span>
+                    <ul>
+                        <li><a href="#">麻衬衫短袖</a></li>
+                        <li><a href="#">麻衬衫长袖</a></li>
+                        <li><a href="#">麻衬衫裙</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">水柔棉</a>
+                <span class="navLine"></span>
+                <div class="subNav">
+                    <span></span>
+                    <ul>
+                        <li><a href="#">短袖</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">裤装</a>
+                <span class="navLine"></span>
+                <div class="subNav">
+                    <span></span>
+                    <ul>
+                        <li><a href="#">商务</a></li>
+                        <li><a href="#">休闲裤</a></li>
+                        <li><a href="#">牛仔裤</a></li>
+                        <li><a href="#">麻裤子</a></li>
+                        <li><a href="#">针织裤</a></li>
+                        <li><a href="#">沙滩裤</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">家具配饰</a>
+                <span class="navLine"></span>
+                <div class="subNav">
+                    <span></span>
+                    <ul>
+                        <li><a href="#">袜品</a></li>
+                        <li><a href="#">床品套件</a></li>
+                        <li><a href="#">被子</a></li>
+                        <li><a href="#">枕</a></li>
+                        <li><a href="#">背心</a></li>
+                        <li><a href="#">珊瑚绒睡袍</a></li>
+                        <li><a href="#">家居毯</a></li>
+                        <li><a href="#">旅行箱</a></li>
+                        <li><a href="#">童装</a></li>
+                        <li><a href="#">空调衫</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">私人订制</a>
+                <div class="subNav">
+                    <span></span>
+                    <ul>
+                        <li><a href="#">衬衫</a></li>
+                        <li><a href="#">西服上衣</a></li>
+                        <li><a href="#">西服套装</a></li>
+                        <li><a href="#">西裤</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+</div>
+<!--/头部区域结束-->
+
+<!-- 固定区域开始-->
+<div id="prodfixed">
+    <h2>凡客T恤 薛继业 挂蛤蟆 <span class="color">白色</span></h2>
+    <ul class="pronav">
+        <li><a href="#produce">产品描述</a>|</li>
+        <li><a href="#comment">评论</a>|</li>
+        <li><a href="#question">提问</a></li>
+    </ul>
+
+</div>
+<!-- /固定区域结束-->
+<!--商品信息开始-->
+<div id="danpinBox">
+    <div class="breadNav">
+        <a href="#">首页</a>
+        <span>></span>
+        <a href="#">男装</a>
+        <span>></span>
+        <a href="#">T恤</a>
+        <span>></span>
+        <a href="#">短袖T恤</a>
+        <span>></span>
+        凡客T恤 薛继业 挂蛤蟆
+    </div>
+    <div class="productInfo">
+        <div class="productTitle">
+            <h2>凡客T恤 薛继业 挂蛤蟆 <span class="color">白色</span></h2>
+            <ul>
+                <li><a href="#produce">产品描述</a>|</li>
+                <li><a href="#comment">评论</a>|</li>
+                <li><a href="#question">提问</a></li>
+            </ul>
+        </div>
+        <div class="productContent clearfix">
+            <div class="danpin_collef">
+                <div class="danpinLeft">
+                    <div class="smallImg">
+                        <ul id="imageMenu">
+                            <li class="hover">
+                                <img src="../images/pro/1.jpg" alt="">
+                            </li>
+                            <li>
+                                <!--<span style="background: url(../images/joinimages.jpg) no-repeat 0 -68px"></span>-->
+                                <img src="../images/pro/11.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="danpinCenter">
+                    <div class="imgbox">
+                        <div class="bigImg small">
+                            <img src="../images/pro/1.jpg" alt="">
+                            <div class="mask"></div>
+                        </div>
+                        <div class="big">
+                            <img src="../images/pro/1.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="danpinRight">
+                <div class="cuxiaoPrice">
+                    <span>售价：</span>
+                    <span>￥<strong>98.00</strong></span>
+                    <a href="#">充100返100，点击充值</a>
+                </div>
+                <div class="danpinColor">
+                    <p class="info">颜色：</p>
+                    <ul>
+                        <li class="on">
+                            <div class="colorBlock">
+                                <a href="javascript:;">
+                                    <span>
+                                        <img src="../images/pro/1.jpg" alt="">
+                                    </span>
+                                    <p>白色</p>
+                                </a>
+                            </div>
+                            <span class="hoverOk"></span>
+                        </li>
+                        <li>
+                            <div class="colorBlock">
+                                <a href="javascript:;">
+                                    <span><img src="../images/pro/2.jpg" alt=""></span>
+                                    <p>浅灰色</p>
+                                </a>
+                            </div>
+                            <span></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="danpinSize clearfix">
+                    <p class="info">尺码：</p>
+                    <ul class="selSize">
+                        <li>
+                            <div>S</div>
+                        </li>
+                        <li>
+                            <div>M</div>
+                        </li>
+                        <li>
+                            <div>L</div>
+                        </li>
+                        <li>
+                            <div>XL</div>
+                        </li>
+                        <li>
+                            <div>XXL</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="danpinNum clearfix">
+                    <p class="info">数量：</p>
+                    <select name="" id="" style="width: 50px;">
+                        <option value="1">1</option>
+                    </select>
+                    <span style="color: #a10000;">余量有限</span>
+                </div>
+                <div class="danpinChose clearfix">
+                    <span class="info">已选：</span>
+                    <span class="color">白色</span>
+                    <span class="size"></span>
+                    <span class="countInfo">库存有限</span>
+                </div>
+                <div class="shoppingNews clearfix">
+                    <a href="#" class="buyNow">立即购买</a>
+                    <a href="#" class="addToCar"></a>
+                </div>
+                <div class="promotion">
+                    <h4>
+                        <span>优惠提示</span>
+                    </h4>
+                    <ul>
+                        <li>全场购物满199元免运费</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="productDetail" id="produce">
+        <div class="attr">
+            <h3>产品属性：（点击可查看同类商品）</h3>
+            <div class="keyword">
+                关键词：<a href="#">朴树好好的</a>
+            </div>
+            <h3 style="margin-top: 20px;">详情图片：</h3>
+            <h3 style="font-weight: normal; margin-top: 10px;">注：商品实际颜色以静物图为准</h3>
+            <div class="imgdetail">
+                <img src="../images/pro/63770210426_01.jpg" alt="">
+                <img src="../images/pro/63770210426_02.jpg" alt="">
+                <img src="../images/pro/63770210426_03.jpg" alt="">
+                <img src="../images/pro/63770210426_04.jpg" alt="">
+                <img src="../images/pro/63770210426_05.jpg" alt="">
+                <img src="../images/pro/63770210426_06.jpg" alt="">
+                <img src="../images/pro/63770210426_07.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="productComment clearfix">
+        <div class="tjpro fl">
+            <h4>推荐产品</h4>
+            <ul>
+                <li>
+                    <img src="../images/pro/6375110-1j201609091537311327.jpg" alt="">
+                    <h3><a href="#">凡客衬衫 吉国武 免烫 领尖扣 3.0 蓝色</a></h3>
+                    <p class="price">售价￥398</p>
+                </li>
+                <li>
+                    <img src="../images/pro/6375110-1j201609091537311327.jpg" alt="">
+                    <h3><a href="#">凡客衬衫 吉国武 免烫 领尖扣 3.0 蓝色</a></h3>
+                    <p class="price">售价￥398</p>
+                </li>
+            </ul>
+        </div>
+        <div class="productCommentRight fr">
+            <a id="comment"></a>
+            <div class="newComment">
+                <h4>
+                    <span style="font-weight: bolder">最新评论（<span id="count">3</span>）</span>
+                    <input type="radio" id="allComment" name="choseComment"><label for="allComment">全部评论</label>
+                    <input type="radio" id="picComment" name="choseComment"><label for="picComment">图片（0）</label>
+                    <a href="" class="addComment">我要评论</a>
+                </h4>
+                <div class="commentContent clearfix">
+                    <div class="commentTab clearfix">
+                        <div class="commentLeft fl">
+                            <div class="commentCon fl">
+                                <p>170cm75kg偏大，物流不给力太慢了</p>
+                                <span class="time">2017-07-26</span>
+                            </div>
+                            <div class="productCon fr">
+                                <p>颜色：白色</p>
+                                <p>尺码：XL</p>
+                                <p>身高：0cm</p>
+                                <p>体重：0.0kg</p>
+                                <p class="plSize"><尺码偏大></p>
+
+                            </div>
+                        </div>
+                        <div class="commentRight fl">
+                            <p><a href="#">用户名</a></p>
+                            <span class="uselevel"></span>
+                        </div>
+                    </div>
+                    <div class="page">
+                        1
+                    </div>
+                </div>
+            </div>
+            <div class="newQuestion">
+                <a id="question"></a>
+                <h4>最新提问（共 条）<a href="" class="addQuestion">我要提问</a></h4>
+                <div class="questionList">
+                    <div class="questionListItems clearfix">
+                        <div class="question clearfix">
+                            <p>
+                                <span class="Q fl">Q</span>
+                                <span>用户名：</span>
+                                <span>充值100里边金额就变200了？当天可以消费光吗？</span>
+                            </p>
+                            <h5>2017-07-04 <a href="">我要回复（）</a></h5>
+                        </div>
+                        <p class="adminAsk">
+                            <span class="A fl">A</span>
+                            亲爱的客户您好，此商品是预售商品，预计下单之日起10-30天发货，感谢您的支持！
+                        </p>
+                    </div>
+                </div>
+                <div class="page">1</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/商品信息结束-->
+
+<!--底部区域开始-->
+<div style="height: 400px;"></div>
+<!-- /底部区域结束-->
+</body>
+<script src="../js/common.js"></script>
+<script src="../js/product.js"></script>
+</html>

@@ -1,0 +1,280 @@
+body {
+    font-size: 12px;
+    font-family: "宋体";
+    color: #333;
+}
+#header {
+    width: 100%;
+    min-width: 1200px;
+    color: #808080;
+}
+
+#header > .header-wrap{
+    width: 100%;
+    min-width: 1200px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ccc;
+}
+
+#header > .header-wrap > #header-bar {
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 32px;
+    height: 32px;
+}
+
+#header > .header-wrap > #header-bar a {
+    color: #808080;
+}
+
+#header > .header-wrap > #header-bar > .top-left {
+    text-align: right;
+    min-width: 240px;
+    float: right;
+}
+#header > .header-wrap > #header-bar > .top-left .track{
+    padding-right: 14px;
+}
+#header > .header-wrap > #header-bar > .top-left .track:hover{
+    color: #a10000;
+}
+
+#header > .header-wrap > #header-bar > .top-right {
+    width: 126px;
+    float: right;
+}
+
+#header > .header-wrap > #header-bar > .top-right .wechat{
+    width: 18px;
+    height: 18px;
+    display: block;
+    float: left;
+    margin: 7px 2px 0 6px;
+    background: url(../images/pro/w1.jpg) no-repeat;
+    position: relative;
+}
+#header > .header-wrap > #header-bar > .top-right .wechat .weixinTip{
+    position: absolute;
+    width: 148px;
+    height: 169px;
+    right: 0px;
+    top: 24px;
+    border: 1px solid #e5e5e5;
+    background: url(../images/pro/weixin.png) no-repeat;
+    cursor: pointer;
+    z-index: 10000;
+    display: none;
+}
+
+#header > .header-wrap > #header-bar > .top-right .wechat:hover .weixinTip{
+    display: block;
+}
+#header > .header-wrap > #header-bar > .top-right .weibo{
+    width: 18px;
+    height: 18px;
+    display: block;
+    float: left;
+    margin-top: 7px;
+    background: url(../images/pro/w2.jpg) no-repeat;
+}
+
+#header > .header-wrap > #header-bar > .top-right > .notice-bar {
+    float: left;
+    width: 70px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+#header > .header-wrap > #header-bar > .top-right > .notice-bar a{
+    display: block;
+    background: url(../images/pro/notice.png) no-repeat scroll 0px 0px;
+    width: 55px;
+    padding-left: 26px;
+    text-align: left;
+}
+#header  .search {
+    width: 1200px;
+    margin: 20px auto 30px;
+    padding-top: 8px;
+    height: 54px;
+}
+
+#header  .search > .search-bar {
+    width: 438px;
+    float: right;
+}
+
+#header  .search .search-tab > .search-text {
+    width: 261px;
+    height: 27px;
+    padding: 0px 5px;
+    line-height: 27px;
+    border: 1px solid #c9caca;
+    font-size: 12px;
+    color: #000;
+    vertical-align: middle;
+}
+
+#header  .search .search-tab > .search-btn {
+    width: 49px;
+    height: 29px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(../images/pro/vanclsprite.png) no-repeat scroll -100px 0px;
+    vertical-align: middle;
+}
+
+.search-tab .active {
+    width: 105px;
+    height: 27px;
+    border: 1px solid #c1383e;
+    background: url(../images/pro/vanclsprite.png) no-repeat scroll -154px 0px;
+    position: relative;
+    z-index: 10;
+    float: right;
+}
+.search-tab .active:hover{
+    border-color: #c1383e;
+    border-bottom: 1px solid #fff;
+    background-position: -153px -29px;
+    z-index: 1001;
+}
+.search-tab .active:hover p a{
+    color: #b81c22;
+}
+.search-tab .active:hover .bottomline{
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    z-index: 10;
+    top: 25px;
+    background-color: #fff;
+}
+.search-tab .active:hover .car-list{
+    display: block;
+}
+
+.search-tab .active a.car-tab {
+    display: block;
+    padding-left: 29px;
+    padding-top: 6px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.search-tab .active .car-list{
+    width: 315px;
+    height: auto;
+    padding: 5px;
+    border: 1px solid #b81c22;
+    position: absolute;
+    right: -1px;
+    top: 27px;
+    _right: -2px;
+    color: #333;
+    background: #ffffff;
+    display: none;
+}
+.hotwords{
+    width: 440px;
+    padding: 6px 0 0 15px;
+    color: #727171;
+    line-height: 18px;
+}
+.hotwords a{
+    margin-right: 5px;
+    color: #727171;
+}
+
+.nav-list{
+    /*margin-top: 24px;*/
+    width: 1000px;
+    padding-left: 200px;
+    margin: 0 auto;
+    font-size: 16px;
+    height: 22px;
+    position: relative;
+    z-index: 300!important;
+}
+.nav-list li{
+    position: relative;
+    width: 99px;
+    float: left;
+    text-align: center;
+    line-height: 22px;
+    padding-bottom: 10px;
+    font-family: "microsoft yahei";
+}
+.nav-list li.logo{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0px;
+    background: none;
+}
+.nav-list li.logo a{
+    display: block;
+    width: 185px;
+    height: 46px;
+    background: url(../images/pro/logo18546.png) no-repeat scroll;
+}
+.nav-list li a{
+    color: #727171;
+}
+.nav-list li a em {
+    width: 25px;
+    height: 13px;
+    position: absolute;
+    left: 67px;
+    top: -5px;
+    display: block;
+    background: url(../images/pro/new_0308.png) no-repeat;
+}
+.nav-list li a em.new{
+    left: 62px;
+}
+.nav-list li a em.hot{
+    background:url(../images/pro/icon_hot.png) no-repeat;
+}
+.nav-list li a:hover{
+    color: #b81c22;
+}
+.nav-list li .navline{
+    display: block;
+    height: 16px;
+    width: 1px;
+    border-right: solid 1px #888;
+    position: absolute;
+    right: 1px;
+    top: 5px;
+    overflow: hidden;
+}
+.nav-list li .subNav{
+    width: 99px;
+    background: #fff;
+    position: absolute;
+    left: -2px;
+    top: 30px;
+    overflow: hidden;
+    display: none;
+}
+.nav-list li .subNav > span{
+    display: block;
+    width: 100%;
+    height: 5px;
+    border-top: 5px solid #B81C22;
+}
+.nav-list li .subNav ul{
+    border: 1px solid #efefef;
+    border-top: none;
+    padding: 10px 0;
+    height: auto;
+}
+.nav-list li .subNav ul li{
+    float: none;
+    padding: 0;
+    line-height: 35px;
+    height: 35px;
+}

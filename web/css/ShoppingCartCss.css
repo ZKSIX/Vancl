@@ -1,0 +1,243 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.top{
+    width: 100%;
+    height: 40px;
+    padding-top: 15px;
+}
+.topContent{
+    margin: auto;
+    width: 980px;
+    height: 40px;
+    border-bottom: 1px solid #7A7F89;
+}
+.topC-R{
+    float: right;
+    width:35%;
+    text-align: right;
+    font-size: 12px;
+}
+.topC-R b{
+    font-weight: 300;
+    color: #000000;
+    margin: 0 0 0 10px;
+}
+.topC-R a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.topC-R a:last-child{
+    color: #000000;
+}
+.LoginReg{
+    color: #a10000;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    padding-top: 10px;
+}
+.navContent{
+    width: 980px;
+    height: 100px;
+    margin: auto;
+}
+.navFir{
+    width:540px;
+    height: 28px;
+    float: left;
+    background: url("../images/newProm.gif");
+    margin-bottom: 10px;
+}
+.navFir span{
+    height: 28px;
+    width: 180px;
+    font-weight: bold;
+    color: #666;
+    font-size: 13px;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 28px;
+}
+.navFir span:first-child{
+    color: #ffffff;
+}
+.tips{
+    height: 30px;
+    width:100%;
+    float: left;
+    margin-bottom: 5px;
+}
+.tips img{
+    float: left;
+    margin-right: 5px;
+}
+.tips h3{
+    float: left;
+    margin-top: 5px;
+}
+.tipsFir{
+    width: 100%;
+    height: 20px;
+    font-size: 12px;
+    float: left;
+    margin-bottom: 10px;
+}
+.tipsFir span{
+    color: #a10000;
+}
+.content{
+    width: 100%;
+    margin-bottom: 10px;
+    height: auto;
+    float: left;
+}
+.contentC{
+    width: 980px;
+    height: auto;
+    margin: auto;
+}
+.CartTable{
+    width:100%;
+    border: 1px solid #DCDFE4;
+}
+.CThead{
+    height: 38px;
+    background: url("../images/carthd.png") repeat-x;
+    line-height: 36px;
+    font-size: 14px;
+}
+.CTcontent{
+    text-align: center;
+}
+.CTcontent-son td{
+    padding: 10px 0 10px 0;
+    background: #f8f8f8;
+    font-size: 12px;
+}
+.CTcontent-son td:nth-child(2){
+    position: relative;
+    /*padding-left: 30px;*/
+}
+/*.price{
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    display: block;
+    float: left;
+    margin-left: 30px;
+    !*position: absolute;*!
+}*/
+.CTcontent-son td:nth-child(2) img{
+    border: 1px solid #DCDFE4;
+    position: absolute;
+    left: 10px;
+    top:30px;
+}
+.CTcontent-son td:nth-child(2) a{
+    line-height: 84px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.CTnum{
+    width: 30px;
+}
+.del{
+    color: #999999;
+    text-decoration: none;
+}
+.buy{
+    width:100%;height: 120px;
+    float: left;
+    margin-bottom: 30px;
+
+}
+.buyContent{
+
+    width:960px;
+    height: 118px;
+    margin: auto;
+    border:1px solid #EBE5BB;
+    background: #FFFEF5;
+    padding: 10px;
+}
+.buyLeft{
+    width: 50%;
+    float: left;
+}
+.buyLeft-fir input{
+    margin-right: 5px;
+}
+.del-all{
+    font-size: 13px;
+
+}
+.buyLeft-fir a{
+    margin-right: 20px;
+}
+.money-icon{
+    font-size: 24px;
+    font-weight: 400;
+    color: #c00b0b;
+}
+.money{
+    font-size: 24px;
+    color: #c00b0b;
+}
+
+.buyRight{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.KeepShopping{
+    position: absolute;
+    color: #666;
+    height: 37px;
+    line-height: 35px;
+    margin-left: 10px;
+    font-size: 14px;
+    text-align: center;
+    width: 122px;
+    background:#ececec ;
+    border: 1px solid #666;
+    outline: none;
+    border-radius: 3px;
+    top:70px;
+    right: 150px;
+    cursor: pointer;
+}
+.Pay{
+    position: absolute;
+    color: #fff;
+    height: 37px;
+    line-height: 35px;
+    width: 122px;
+    border: 1px solid #880505;
+    outline: none;
+    border-radius: 3px;
+    background: #bc0a0a;
+    top:70px;
+    right: 15px;
+    cursor: pointer;
+}
+.footer{
+    width:100%;
+    float: left;
+}
+.footerContent{
+    width: 980px;
+    margin: auto;
+    text-align: center;
+}
+.footerContent p:first-child{
+    color: #999999;
+    font-size: 12px;
+}
+.footerContent p a{
+    margin-right: 10px;
+}
